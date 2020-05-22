@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 });*/
 Route::resource('/', HomeController::class);
+
+Route::get('session', 'SessionController@session');
